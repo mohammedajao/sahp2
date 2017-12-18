@@ -99,6 +99,7 @@ export default {
   computed: {
     user () {
       const info = this.$store.getters.loadUser(this.id)
+      console.log(info)
       Object.keys(info).map((prop) => {
         this[prop] = info[prop]
       })

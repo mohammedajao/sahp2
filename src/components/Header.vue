@@ -66,7 +66,8 @@ export default {
       ],
       userMenu: [
         {id: 1, title: 'Home', path: '/'},
-        {id: 2, title: 'Search', path: '/search'}
+        {id: 2, title: 'Search', path: '/search'},
+        {id: 3, title: 'Create Job', path:'/company/createjob'}
       ]
     }
   },

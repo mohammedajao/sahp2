@@ -62,7 +62,7 @@ export default {
       email: '',
       password: '',
       confirmedPassword: '',
-      student: ''
+      student: 'Employer'
     }
   },
   methods: {
